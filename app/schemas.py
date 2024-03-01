@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 # Schema para o usuário de entrada (criação)
 class UserCreate(BaseModel):
-    id: Optional[int]
+    id: Optional[int] = None
     username: str
     email: str
     full_name: Optional[str] = None
