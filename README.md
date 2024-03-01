@@ -28,7 +28,7 @@ make run
 open http://localhost:8000/docs
 ```
 
-Rodando formatador, linst e tests antes de commitar
+Rodando formatador, lint e tests antes de commitar
 ```shell
 make before-commit
 ```
